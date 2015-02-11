@@ -1,0 +1,42 @@
+#home {
+  position: relative;
+}
+
+.start-button {
+  width: 50%;
+  height: 0;
+  padding-bottom: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+	top: 25%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.start-button a {
+  display: block;
+	float: left;
+	width: 100%;
+	padding-top: 50%;
+  padding-bottom: 50%;
+	line-height: 1em;
+	margin-top: -0.5em;   
+	text-align: center;
+	color: white;
+  font-size:2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button {
+	text-shadow: none !important;
+}
+
+.button.green {
+	background: green;
+}
+
+.button.green a.white {
+	color: white !important;
+}
